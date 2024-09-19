@@ -4,8 +4,6 @@ int main() {
     printf("Enter an integer: ");
     scanf("%d", &n);
     original = n;
-
-    // reversed integer is stored in reversed variable
     while (n != 0) {
         remainder = n % 10;
         reversed = reversed * 10 + remainder;
